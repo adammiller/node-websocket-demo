@@ -1,0 +1,15 @@
+{
+  "name": "node-websocket-demo",
+  "version": "0.0.0",
+  "description": "Simple WebSocket server for broadcasting messages between webpages.",
+  "main": "app.js",
+  "dependencies": {
+    "ws": "^0.4.32"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Miller <adam@heyadammiller.com>",
+  "license": "ISC"
+}
