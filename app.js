@@ -44,8 +44,6 @@ var ClientConnection = function( ws ) {
 };
 
 wss.on( 'connection', function( ws ) {
-
   var client = new ClientConnection(ws);
-
   ws.send(JSON.stringify({msg: "Connected"}));
 });
